@@ -5,6 +5,7 @@ def main():
 
 def snakeify(cc):
     print("snake_case: ", end = "")
+    #if uppercase then lowercase it and print underscore
     for char in cc:
         if char.isupper():
             print("_", end = "")
