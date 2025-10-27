@@ -1,6 +1,7 @@
 def main():
     time = input("What time is it? ")
     convert(time)
+    
     if 7 <= string and 8 >= string:
         print("breakfast time")
     elif 12 <= string and 13 >= string:
@@ -10,7 +11,7 @@ def main():
 
 def convert(a):
     global string
-    hour, minute = a.split(":")
+    hour, minute = a.split(":") #Splits the input string into 2 variables
     fraction = int(minute) / 60
     hour = int(hour)
     string = hour + fraction
