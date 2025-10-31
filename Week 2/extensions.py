@@ -2,6 +2,7 @@ def main():
     name = input("File name: ").lower().strip()
     media_type(name)
 
+#Could've used a dictionary here for better practice
 def media_type(a):
     if a.endswith(".gif"):
         print("image/gif")
